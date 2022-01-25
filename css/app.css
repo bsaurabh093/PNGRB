@@ -1,0 +1,154 @@
+
+/*---------------------site-header-----------*/
+body, .navbar, .list-inline{
+	margin:0;
+}
+.site-header {
+    background-color: #079647;
+    display: block;
+    padding: 8px;
+}
+.logo img {
+    max-width: 200px;
+}
+.navbar-toggle{
+	background-color:#fff;
+}
+.top-header {
+    background-color: #ffec01;
+    margin-top: -9px;  
+    margin-right: -9px;
+	    padding-left: 12px;
+}
+.top-header li {
+    padding: 8px;
+    border-right: 1px solid #079647;   
+}
+
+.location-menu input {
+    background-color: transparent;
+    border: 0;
+    color: #079647;
+    padding: 0;
+}
+.navbar-collapse{
+	padding: 0;
+}
+.header-menu li a {
+    color: #fff;
+}
+.header-menu {
+    margin-top: 3px;
+}
+.header-menu li a:hover {
+    background-color: transparent;
+    color: #ffec01;
+}
+.location-menu-icon li a {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-color: #fff;
+    padding: 4px 9px;
+    border-radius: 50%;
+    border: 1px solid #ceccb5;
+    color:#079647;
+}
+.location-menu-icon li a:hover {
+    background-color: #079647;
+    color: #fff;
+}
+/* heading style */
+.border-heading {
+    width: 80px;
+    display: block;
+    height: 4px;
+    background-color: #069647;
+    margin-bottom: 30px;
+}
+.heading-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: cursive;
+}
+.divider-cgd-section{
+	margin:30px;
+}
+.top-header {
+    position: relative;
+}
+.top-header:before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    background-color: #ffec01;
+    height: 46px;
+    left: -40px;
+    transform: skew(40deg);
+}
+/* banner */
+.banner-cgd .item img {
+    width: 100%;
+}
+img{
+max-width:100%;
+}
+.item-cdg-pub img {
+    height: 230px;
+}
+.pub-tender-section {
+    background-color: #eee;
+    padding-bottom: 40px;
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0,0.4);
+}
+.site-footer{
+padding:20px;background-color:#000;height:50px; color:#fff;
+}
+
+.tender-item-list img {
+    height: inherit !important;
+}
+.tender-item-list {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #d2cdcd;
+}
+.tender-item-list img {
+    vertical-align: top;
+}
+.icon-tender-list {
+    float: left;
+    margin-right: 10px;
+}
+.content-tender-list p {
+    margin-bottom: 0;
+}
+.size {
+    font-size: 11px;
+    margin-top: 4px;
+    color: gray;
+}
+.tender-content-heading {
+    color: #079647;
+    font-size: 18px;
+}
+.tender-item {
+    margin-bottom: 10px;
+}
+.location-menu li {
+    padding-top: 11px;
+    height: 45px;
+}
+.figure-details {
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #c1c1c1;
+    border-top: 0;
+}
+.details-fig {
+    color: #000000;
+    font-weight: 600;
+}
+
+
+/* icon css */
